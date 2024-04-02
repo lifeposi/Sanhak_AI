@@ -8,7 +8,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 
 mysql_params = {
     'host': '',
